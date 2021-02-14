@@ -1,3 +1,8 @@
+## Disclaimer
+El código de este repositorio y todo lo que contiene no me pertenece. Es un fork de otro repositorio.
+El uso que se le está dando a este servicio es únicamente con fines educativos. 
+Cualquier mal uso derivado de este repositorio, su código o la funcionalidad del programa es responsabilidad del usuario final del mismo.
+
 
 <p align="center">
     <img alt="karma" src="https://i.imgur.com/C3zISlU.gif"/>
@@ -18,19 +23,9 @@ Install dependencies (Debian/Ubuntu):
 ```
 sudo apt install tor python3 python3-pip
 ```
+Descarga el repositorio y extrae el zip. Muévete a la carpeta extraída y ejecuta los siguientes comandos:
 
-Install with `pip3`:
 ```
-sudo -H pip3 install git+https://github.com/decoxviii/karma.git --upgrade
-karma --help
-```
-
-
-## Building from Source
-
-Clone this repository, and:
-```
-git clone https://github.com/decoxviii/karma.git ; cd karma
 sudo -H pip3 install -r requirements.txt
 python3 setup.py build
 sudo python3 setup.py install
